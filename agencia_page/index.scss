@@ -1,0 +1,71 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color:#fdfdff;
+  width: 100%;
+  height: 100vh;
+}
+header{
+  width: 100%;
+  height: 70%;
+  position: relative;
+  ul{
+    background-color: transparent;
+    position: absolute;
+    right: 3%;
+    width: 30%;
+    li{
+      display: inline;
+      background-color: red;
+      margin-right: 10%;
+    }
+  }
+  .logo{
+    background: transparent url("../agencia_page/image/Logo_agência_de_turismo_minimalista_amarelo_e_azul-removebg-preview.png")  no-repeat  center ;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    opacity: 1;
+    top: 50%;
+    left: 35%;
+  }
+  .main-page{
+    background: #fdfdff url("../agencia_page/image/itacare.jpg")  no-repeat  center ;
+    width: 100%;
+    background-position: right center;
+    background-size: cover;
+    height: 50%;
+    opacity: 0.7;
+   position: absolute;
+    border-radius: 0 0 5% 5%;
+  }
+}
+span{
+  display: inline-block;
+}
+.btn{
+  margin: 0 auto;
+  width: 100%;
+  a{
+    width: 15%;
+  }
+}
+.img{
+  height: 50%;
+  border-top-left-radius: calc(0.2rem - 5px);
+  border-top-right-radius: calc(0.2rem - 5px);
+}
+.mb-3{
+  width: 70%;
+  margin: 0 auto;
+}
+.col-12{
+  width: 30% !important;
+  margin: 0 auto;
+  margin-bottom: 100px !important;
+}
+.btn-primary{
+  margin-bottom: 20%;
+}
